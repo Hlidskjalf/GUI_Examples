@@ -1,6 +1,4 @@
-package GUI_Examples.Assets;
-
-import GUI_Examples.Radio;
+package GUI_Examples;
 
 public class Main {
 
