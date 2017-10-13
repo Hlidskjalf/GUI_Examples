@@ -6,7 +6,7 @@ public class Main {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Radio.app();
+                Button.app();
             }
         });
     }
