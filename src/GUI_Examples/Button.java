@@ -10,16 +10,21 @@ public class Button extends JPanel implements ActionListener {
     protected JButton b1;
 
     public Button() {
+
+        // Button 1 parameters
         b1 = new JButton("Button");
         b1.setVerticalTextPosition(AbstractButton.CENTER);
         b1.setHorizontalTextPosition(AbstractButton.LEADING);
         b1.setMnemonic(KeyEvent.VK_B);
         b1.setActionCommand("button1");
 
+        // Button ActionListeners
         b1.addActionListener(this);
 
+        // Tool Tips
         b1.setToolTipText("Press to run a thing");
 
+        // Add Buttons to be displayed
         add(b1);
 
     }

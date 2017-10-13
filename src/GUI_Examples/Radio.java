@@ -75,6 +75,7 @@ public class Radio extends JPanel implements ActionListener {
 
         // Display the Windah
         frame.pack();
+        frame.setSize(700, 800);
         frame.setVisible(true);
     }
 }
