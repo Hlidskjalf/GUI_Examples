@@ -17,7 +17,9 @@ public class Radio extends JPanel implements ActionListener {
     public Radio() {
         super (new BorderLayout());
 
-        // Da Btns
+        /**
+         * This can be used to create multiple menu layouts, or alternating displays.
+         */
         JRadioButton bcBtn = new JRadioButton(cpp);
         bcBtn.setMnemonic(KeyEvent.VK_B);
         bcBtn.setActionCommand(cpp);
