@@ -11,6 +11,8 @@ public class Button extends JPanel implements ActionListener {
 
     public Button() {
 
+        //TODO Create a series of buttons (9) to replicate the Util program, and an exit btn
+
         // Button 1 parameters
         b1 = new JButton("Button");
         b1.setVerticalTextPosition(AbstractButton.CENTER);
