@@ -48,6 +48,7 @@ public class Button extends JPanel implements ActionListener {
         frame.setContentPane(newContentPane);
 
         frame.pack();
+        frame.setSize(300, 400);
         frame.setVisible(true);
     }
 }
