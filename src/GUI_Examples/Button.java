@@ -11,14 +11,26 @@ public class Button extends JPanel implements ActionListener {
 
     public Button() {
 
-        //TODO Create a series of buttons (9) to replicate the Util program, and an exit btn
+        //TODO Create a series of buttons (7) to replicate the Util program, and an exit btn
 
         // Button 1 parameters
+        // Try different TextPosition attributes
         b1 = new JButton("Button");
         b1.setVerticalTextPosition(AbstractButton.CENTER);
         b1.setHorizontalTextPosition(AbstractButton.LEADING);
         b1.setMnemonic(KeyEvent.VK_B);
         b1.setActionCommand("button1");
+
+        /**
+         * To build out the FCE-UTIL Program, we will need buttons for:
+         *  Changing the store #
+         *  Running the clean up script
+         *  Terminating MWS
+         *  Rebooting the PC
+         *  Running a constant ping on the site
+         *  Terminating a custom process
+         *  Launching a VNC Viewer pre-loaded with site connection options
+         */
 
         // Button ActionListeners
         b1.addActionListener(this);
@@ -31,6 +43,9 @@ public class Button extends JPanel implements ActionListener {
 
     }
 
+
+    /* TODO: Read about actionPerformed and how it would be best to implement multiple-selection statements for the series of buttons */
+    
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
 
