@@ -35,17 +35,8 @@ public class Button extends JPanel implements ActionListener {
         String command = e.getActionCommand();
 
         if (command.equals("button1")) {
-            thingToRun();
+            BtnFunctions.thingToRun();
         }
-    }
-
-    /**
-     * Manage this in a separate file, redesign actionPerformed to allow for
-     * many functions, and use this as a template to rebuild FCE Util in Java
-     */
-
-    public void thingToRun() {
-        JOptionPane.showMessageDialog(this, "You should not have pressed that.");
     }
 
     protected static void app() {
