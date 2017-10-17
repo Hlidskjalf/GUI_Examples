@@ -45,7 +45,7 @@ public class Button extends JPanel implements ActionListener {
 
 
     /* TODO: Read about actionPerformed and how it would be best to implement multiple-selection statements for the series of buttons */
-    
+
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
 
