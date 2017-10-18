@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="85bd46a0-ddd4-4b06-b27d-a61f262dad52" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI_Examples/Button.java" afterPath="$PROJECT_DIR$/src/GUI_Examples/Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI_Examples/Main.java" afterPath="$PROJECT_DIR$/src/GUI_Examples/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,12 +41,11 @@
       <file leaf-file-name="Button.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI_Examples/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="34" column="67" lean-forward="false" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#911#1137#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#874#1100#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -432,12 +430,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI_Examples/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="34" column="67" lean-forward="false" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#1137#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#874#1100#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
           </folding>
         </state>
       </provider>
