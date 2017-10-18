@@ -24,6 +24,8 @@ public class Button extends JPanel implements ActionListener {
         b1.setMnemonic(KeyEvent.VK_B);
         b1.setActionCommand("button1");
 
+        // Using an image as a button. 
+
         JLabel button = new JLabel();
         button.setIcon(new ImageIcon("res/exitbutton.png"));
 
