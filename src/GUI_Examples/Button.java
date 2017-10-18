@@ -31,7 +31,7 @@ public class Button extends JPanel implements ActionListener {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                JOptionPane.showInputDialog("Exit Button Clicked");
+                JOptionPane.showInputDialog("Image is 200px x 200px total");
             }
         });
 
