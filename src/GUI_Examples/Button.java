@@ -1,9 +1,12 @@
 package GUI_Examples;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 
 public class Button extends JPanel implements ActionListener {
 
@@ -57,6 +60,13 @@ public class Button extends JPanel implements ActionListener {
     protected static void app() {
         JFrame frame = new JFrame("Buttons");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Custom Icon code
+        try {
+            frame.setIconImage(ImageIO.read(new File("res/cpp_logo.png")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         Button newContentPane = new Button();
         newContentPane.setOpaque(true);
